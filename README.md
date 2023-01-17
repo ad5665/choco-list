@@ -2,6 +2,7 @@
 
 ### Coding stuff
 choco install python3 -y
+
 choco install notepadplusplus.install -y
 choco install 7zip.install -y
 choco install firefox -y
