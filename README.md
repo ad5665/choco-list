@@ -79,6 +79,10 @@ choco install signal -y
 
 choco install etcher -y 
 
+choco install gopro-quik -y
+
+choco install garmin-express -y
+
 
 ### Games
 choco install discord -y 
@@ -114,6 +118,9 @@ choco pin add -n="dotnet-7.0-desktopruntime"
 choco pin add -n="spotify"
 choco pin add -n="sharex"
 choco pin add -n="googledrive"
+choco pin add -n="gopro-quik"
+choco pin add -n="garmin-express"
+
 
 
 ### Pin Games
