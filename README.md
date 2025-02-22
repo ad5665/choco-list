@@ -1,6 +1,8 @@
 # choco-list
 
 ### Coding stuff
+choco install flow-launcher
+
 choco install python3 -y 
 
 choco install notepadplusplus.install -y 
@@ -103,29 +105,46 @@ choco install steam-client -y
 
 ### Pins for AutoUpdate apps
 choco pin add -n="Firefox"
+
 choco pin add -n=obsidian
+
 choco pin add -n=vscode
+
 choco pin add -n="vscode-powershell"
+
 choco pin add -n="powertoys"
+
 choco pin add -n="openlens"
+
 choco pin add -n="notepadplusplus.install"
+
 choco pin add -n="docker-desktop"
+
 choco pin add -n="dotnet-desktopruntime"
+
 choco pin add -n="dotnet-7.0-desktopruntime"
 
 
 ### Pin Media/Other
 choco pin add -n="spotify"
+
 choco pin add -n="sharex"
+
 choco pin add -n="googledrive"
+
 choco pin add -n="gopro-quik"
+
 choco pin add -n="garmin-express"
 
 
 
 ### Pin Games
 choco pin add -n="ubisoft-connect"
+
 choco pin add -n="steam-client"
+
 choco pin add -n="ea-app"
+
 choco pin add -n="discord"
+
 choco pin add -n="epicgameslauncher"
