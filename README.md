@@ -100,7 +100,7 @@ choco install epicgameslauncher -y --ignore-checksums
 
 choco install ea-app -y --ignore-checksums
 
-choco install ubisoft-connect -y 
+choco install ubisoft-connect -y --ignore-checksums
 
 choco install steam-client -y 
 
