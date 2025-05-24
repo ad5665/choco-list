@@ -1,65 +1,72 @@
 # choco-list
 
-### Coding stuff
-choco install flow-launcher
+## install choco, runas admin
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 
-choco install python3 -y 
+### Coding stuff
+choco install flow-launcher -y
+
+choco install floorp -y
+
+#choco install python3 -y 
 
 choco install notepadplusplus.install -y 
 
 choco install 7zip.install -y 
 
-choco install firefox -y 
+#choco install firefox -y 
 
 choco install git.install -y 
 
 choco install vscode -y 
 
-choco install awscli -y 
+#choco install awscli -y 
 
-choco install winscp.install -y 
+#choco install winscp.install -y 
 
 choco install keepass.install -y 
 
 choco install powertoys -y 
 
-choco install azure-cli -y 
+#choco install azure-cli -y 
 
 choco install procexp -y 
 
-choco install postman -y 
+#choco install postman -y 
 
 choco install crystaldiskinfo -y 
 
-choco install terraform -y 
+#choco install terraform -y 
 
-choco install kubernetes-cli -y 
+#choco install kubernetes-cli -y 
 
-choco install docker-desktop -y 
+#choco install docker-desktop -y 
+
+choco install rancher-desktop -y
 
 choco install procmon -y 
 
-choco install docker-compose -y 
+#choco install docker-compose -y 
 
-choco install oh-my-posh -y 
+#choco install oh-my-posh -y 
 
-choco install vscode-powershell -y 
+#choco install vscode-powershell -y 
 
 choco install obsidian -y 
 
-choco install k9s -y 
+#choco install k9s -y 
 
-choco install github-desktop -y 
+#choco install github-desktop -y 
 
-choco install mremoteng -y 
+#choco install mremoteng -y 
 
-choco install openlens -y 
+#choco install openlens -y 
 
-choco install kubernetes-helm -y 
+#choco install kubernetes-helm -y 
 
-choco install minikube -y 
+#choco install minikube -y 
 
-choco install jq -y 
+#choco install jq -y 
 
 
 ### Media/Other
@@ -77,21 +84,21 @@ choco install musicbee -y
 
 choco install rufus -y 
 
-choco install signal -y 
+#choco install signal -y 
 
-choco install etcher -y 
+#choco install etcher -y 
 
-choco install gopro-quik -y
+#choco install gopro-quik -y
 
-choco install garmin-express -y
+#choco install garmin-express -y
 
 
 ### Games
 choco install discord -y 
 
-choco install epicgameslauncher -y 
+choco install epicgameslauncher -y --ignore-checksums
 
-choco install ea-app -y 
+choco install ea-app -y --ignore-checksums
 
 choco install ubisoft-connect -y 
 
@@ -104,7 +111,7 @@ choco install steam-client -y
 
 
 ### Pins for AutoUpdate apps
-choco pin add -n="Firefox"
+choco pin add -n="floorp"
 
 choco pin add -n=obsidian
 
