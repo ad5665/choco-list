@@ -104,6 +104,8 @@ choco install ubisoft-connect -y --ignore-checksums
 
 choco install steam-client -y 
 
+choco install goggalaxy -y
+
 
 ### Update all Apps
 #cup all
@@ -130,6 +132,8 @@ choco pin add -n="docker-desktop"
 choco pin add -n="dotnet-desktopruntime"
 
 choco pin add -n="dotnet-7.0-desktopruntime"
+
+choco pin add -n="goggalaxy"
 
 
 ### Pin Media/Other
