@@ -36,6 +36,8 @@ choco install procexp -y
 
 choco install crystaldiskinfo -y 
 
+choco install crystaldiskmark -y
+
 #choco install terraform -y 
 
 #choco install kubernetes-cli -y 
