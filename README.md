@@ -94,6 +94,8 @@ choco install rufus -y
 
 #choco install garmin-express -y
 
+choco install syncthingtray -y
+
 
 ### Games
 choco install discord -y 
